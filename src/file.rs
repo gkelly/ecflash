@@ -1,5 +1,3 @@
-use alloc::{String, Vec};
-
 use super::Ec;
 
 pub struct EcFile(Vec<u8>);

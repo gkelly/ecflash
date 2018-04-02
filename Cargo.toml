@@ -3,5 +3,8 @@ name = "ecflash"
 version = "0.1.0"
 authors = ["Jeremy Soller <jackpot51@gmail.com>"]
 
+[dependencies]
+lazy_static = "1.0"
+
 [profile.release]
 lto = true

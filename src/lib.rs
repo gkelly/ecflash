@@ -1,11 +1,5 @@
-#![no_std]
-#![feature(alloc)]
-#![feature(asm)]
-
 #[macro_use]
-extern crate alloc;
-
-use alloc::String;
+extern crate lazy_static;
 
 pub use self::file::EcFile;
 pub use self::flash::EcFlash;

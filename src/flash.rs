@@ -1,5 +1,3 @@
-use alloc::String;
-
 use super::Ec;
 use super::io::{inb, outb};
 
